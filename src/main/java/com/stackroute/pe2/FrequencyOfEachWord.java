@@ -1,5 +1,5 @@
 package com.stackroute.pe2;
-
+//a program to calculate the frequency of the words in a given file.
 import java.io.File;
 import java.util.*;
 

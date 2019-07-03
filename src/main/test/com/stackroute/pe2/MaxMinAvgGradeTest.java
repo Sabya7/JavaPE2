@@ -35,4 +35,12 @@ public class MaxMinAvgGradeTest {
         assertEquals(20.0f,result,0.0001);
 
     }
+
+    @Test
+    public void avgInvalid() {
+        int[] grades={10,30};
+        float result=MaxMinAvgGrade.compute(3,grades);
+        assertEquals(20.0f,result,0.0001);
+
+    }
 }

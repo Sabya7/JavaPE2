@@ -1,5 +1,6 @@
 package com.stackroute.pe2;
-
+//a program to list all the factorials, that can be expressed as an int (i.e., 32-bit
+//signed integer) and long.
 public class FactorialInRange {
 
     public static boolean listIntFactorial()

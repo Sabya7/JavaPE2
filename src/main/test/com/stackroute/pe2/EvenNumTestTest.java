@@ -21,4 +21,9 @@ public class EvenNumTestTest {
         boolean result=EvenNumTest.isEven(17);
         assertEquals(true,result);
     }
+    @Test
+    public void isEvenShouldReturnTrue3() {
+        boolean result=EvenNumTest.isEven(-17);
+        assertNotEquals(true,result);
+    }
 }
